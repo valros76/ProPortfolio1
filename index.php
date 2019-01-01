@@ -12,6 +12,24 @@ if(isset($_GET['action'])){
     if($action === 'home'){
         home();
     }
+    if($action === 'portfolios'){
+        portfolios();
+    }
+    if($action === 'portfolioPro'){
+        portfolioPro();
+    }
+    if($action === 'portfolioPerso'){
+        portfolioPerso();
+    }
+    if($action === 'cv'){
+        cv();
+    }
+    if($action === 'shifumi'){
+        shifumi();
+    }
+    if($action === 'contact'){
+        contact();
+    }
 }
 else{
     home();

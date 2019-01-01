@@ -187,6 +187,47 @@ section article p{
     text-align:justify;
 }
 
+.portfolioProArt p {
+    text-align:center;
+    font-family:"OpenSans", sans-serif;
+}
+
+.portfolioProArt p code{
+    color:#e95555;
+    font-family:"Kalam", sans-serif;
+    font-weight:bold;
+}
+
+.portfolioProArt p a{
+    text-decoration:none;
+    font-family:"Kalam",sans-serif;
+    color:#0c800c;
+    font-weight:bold;
+    font-size:1.1em;
+}
+
+.portfolioProArt p a:hover{
+    color:#0c200c;
+    text-decoration:underline;
+}
+
+.textArticleHome{
+    text-align:center;
+    font-family:"Kalam", sans-serif;
+    font-weight:bold;
+}
+
+section article p img{
+    width:100%;
+    height:auto;
+    margin:10px auto;
+    padding:0;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    border:2px solid #101010;
+}
+
 ul.presentationList{
     width:80%;
     margin:0 auto;
@@ -212,11 +253,80 @@ li.presentationItems{
     color:#e92626;
 }
 
+/*
+*ContactForm
+*/
+.contactForm{
+    width:100%;
+    margin:0;
+    padding:0;
+    display:felx;
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.contactForm label{
+    display:block;
+    width:100%;
+    text-align:center;
+}
+
+.contactForm input:not([type="submit"]){
+    width:300px;
+    display:block;
+    margin:0 auto;
+    padding:0;
+    text-align:center;
+    background:rgba(255,255,255,.6);
+    border:.5px solid #101010;
+}
+
+.contactForm #messageContact{
+    width:300px;
+    display:block;
+    min-width:300px;
+    max-width:300px;
+    height:150px;
+    min-height:150px;
+    max-height:180px;
+    margin:0 auto;
+    padding:0;
+    background:rgba(255,255,255,.6);
+    border:.5px solid #101010;
+    text-align:justify;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    padding:5px;
+}
+
+.contactForm input[type="submit"]{
+    width:300px;
+    display:block;
+    margin:0 auto;
+    padding:5px;
+    border:.5px solid #101010;
+    border-radius:5px;
+}
+
+.contactForm input[type="submit"]:hover{
+    cursor:pointer;
+    background:rgba(25,125,255,.3);
+}
+
+.contactForm input[type="submit"]:active{
+    cursor:pointer;
+    background:rgba(25,75,255,.5);
+    outline:none;
+}
+/*END ContactForm*/
+
 footer{
     width:100%;
     height:15px;
     background:#101010;
-    position:absolute;
+    position:fixed;
     bottom:0;
     left:0;
     right:0;

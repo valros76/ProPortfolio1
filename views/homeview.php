@@ -29,7 +29,7 @@
                 Sur mes projets, je travaille exclusivement en remote.<br/>
                 Sur ce site, vous trouverez :<br/>
                 <ul class="presentationList">
-                    <li class="presentationItems"><a href="?action=portfolio">Mon portfolio professionnel</a></li>
+                    <li class="presentationItems"><a href="?action=portfolioPro">Mon portfolio professionnel</a></li>
                     <li class="presentationItems"><a href="?action=portfolioPerso">Mon portfolio personnel</a></li>
                     <li class="presentationItems"><a href="?action=cv">Mon CV</a></li>
                     <li class="presentationItems"><a href="?action=contact">Mes coordonnées</a></li>
