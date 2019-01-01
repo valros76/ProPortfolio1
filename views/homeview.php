@@ -14,7 +14,7 @@
         <nav class="headMenu">
             <ul>
                 <li><a href="?action=home">Home</a></li>
-                <li><a href="?action=portfolio">Portfolio</a></li>
+                <li><a href="?action=portfolios">Mes Portfolios</a></li>
                 <li><a href="?action=contact">Contact</a></li>
             </ul>
         </nav>
@@ -22,10 +22,27 @@
 
     <section>
         <article>
-            <h2>Article $</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde quod in ullam odio ea blanditiis fuga temporibus alias eum earum! Vero porro cum pariatur cumque explicabo minus ipsum ullam eaque. Quod, animi quo rem molestiae fuga officia, quaerat nobis voluptas quos cumque minus laboriosam dolore distinctio soluta temporibus consectetur est quasi culpa, nesciunt nostrum. Sunt iste id, voluptatum repellendus quidem vitae dolorum ullam velit nostrum architecto soluta distinctio, ducimus eum, eligendi quasi totam saepe consequatur qui adipisci corrupti esse animi?</p>
+            <h2>Présentation</h2>
+            <p>
+                Je m'appelle Valérian Dufrène.<br/>
+                Je suis diplômé Développeur intégrateur en réalisation d'applications web.<br/>
+                Sur mes projets, je travaille exclusivement en remote.<br/>
+                Sur ce site, vous trouverez :<br/>
+                <ul class="presentationList">
+                    <li class="presentationItems"><a href="?action=portfolio">Mon portfolio professionnel</a></li>
+                    <li class="presentationItems"><a href="?action=portfolioPerso">Mon portfolio personnel</a></li>
+                    <li class="presentationItems"><a href="?action=cv">Mon CV</a></li>
+                    <li class="presentationItems"><a href="?action=contact">Mes coordonnées</a></li>
+                </ul>
+            </p>
         </article>
     </section>
     
+    <footer>
+        <p>
+            Créé par Valérian Dufrène - 2018
+        </p>
+    </footer>
+
 </body>
 </html>
