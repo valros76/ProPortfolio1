@@ -15,6 +15,7 @@
             <ul>
                 <li><a href="?action=home">Home</a></li>
                 <li><a href="?action=portfolios">Mes Portfolios</a></li>
+                <li><a href="?action=cv">Mon CV</a></li>
                 <li><a href="?action=contact">Contact</a></li>
             </ul>
         </nav>
