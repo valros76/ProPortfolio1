@@ -24,9 +24,10 @@
         <article class="cv">
             <h2 class="cvTitle">CV</h2>
             <p class="cvContent">
+                <img src="assets/images/0.jpg" alt="photo_Profil_1" class="photoCv"/><br/>
                 Valérian Dufrène<br/>
                 41 rue des pinsons, 76690 Clères<br/>
-                <a href="tel:+33750474757" title="Appeler le numéro">0750474757</a><br/>
+                <a href="tel:+33750474757" title="Appeler le numéro">0750474757 <span class="hintTelCv">("Cliquez pour lancer l'appel")</span></a><br/>
                 Diplôme : Développeur intégrateur en réalisation d'applications web.<br/>
                 Je travaille exclusivement en remote.<br/><br/>
                 Formation :<br/>
