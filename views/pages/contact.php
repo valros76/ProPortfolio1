@@ -28,17 +28,20 @@
                 Je m'appelle Valérian Dufrène.<br/>
                 Vous pouvez me contacter par email (si vous avez une application de mail par défaut, elle s'ouvrira en cliquant sur le lien) : <a href="mailto:valerian.dufrene@gmail.com">valerian.dufrene@gmail.com</a>.<br/>
                 Ou par ce formulaire : (Tous les champs sont obligatoires)<br/>
-                <form class="contactForm" action="" method="post">
+                Le formulaire est indisponible pour le moment...<br/>
+                <form class="contactForm" action="?action=sendMail" method="post">
                     <label for="nom">Votre nom</label>
-                    <input type="text" name="nom" required/>
+                    <input type="text" name="nom" required />
                     <br/>
                     <label for="mail">Votre adresse email</label>
-                    <input type="email" name="mail" required/>
+                    <input type="email" name="mail" required />
                     <br/>
+                    <label for="sujet">Sujet</label>
+                    <input type="text" name="sujet"/>
                     <label for="message">Votre message</label>
-                    <textarea id="messageContact" name="message" placeholder="Votre message ici..." required></textarea>
+                    <textarea id="messageContact" name="message" placeholder="Votre message ici..." required ></textarea>
                     <br/>
-                    <input type="submit" value="Envoyer" name="submitContact"/>
+                    <input type="submit" value="Envoyer" name="submitContact" />
                 </form>
             </p>
         </article>

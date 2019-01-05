@@ -30,6 +30,9 @@ if(isset($_GET['action'])){
     if($action === 'contact'){
         contact();
     }
+    if($action === 'sendMail'){
+        sendMail();
+    }
 }
 else{
     home();

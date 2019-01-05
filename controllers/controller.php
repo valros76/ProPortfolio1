@@ -28,4 +28,25 @@
         require('views/pages/contact.php');
     }
 
+    function sendMail(){
+        ini_set( 'display_errors', 1 );
+ 
+        error_reporting( E_ALL );
+
+        $to      =  "valerian.dufrene@gmail.com";
+        $subject = $_POST['nom'] . "-" . $_POST['sujet'];
+        $message = $_POST['message'];
+        $headers = array(
+            'From' => $_POST['mail'],
+            'Reply-To' => 'valerian.dufrene@gmail.com',
+            'X-Mailer' => 'PHP/' . phpversion()
+        );
+
+        mail($to, $subject, $message, $headers);
+
+        echo("Le mail a été envoyé !");
+
+        header('Location: index.php');
+    }
+
 ?>
