@@ -32,7 +32,8 @@
                 Diplôme : Développeur intégrateur en réalisation d'applications web.<br/>
                 Je travaille exclusivement en remote.<br/><br/>
                 Formation :<br/>
-                Parcours de formation Développeur Web Junior chez Openclassrooms.<br/>
+                Parcours de formation Développeur Web Junior chez Openclassrooms.<br/><br/>
+                Vous pouvez consulter les projets que j'ai réalisé en 2018 en visitant la page "Mes portfolios".
             </p>
         </article>
     </section>
