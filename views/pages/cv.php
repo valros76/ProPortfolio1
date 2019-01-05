@@ -27,13 +27,22 @@
             <p class="cvContent">
                 <img src="assets/images/0.jpg" alt="photo_Profil_1" class="photoCv"/><br/>
                 Valérian Dufrène<br/>
-                41 rue des pinsons, 76690 Clères<br/>
+                41 rue des pinsons, 76690 Clères<br/><br/>
                 <a href="tel:+33750474757" title="Appeler le numéro">0750474757 <span class="hintTelCv">("Cliquez pour lancer l'appel")</span></a><br/>
+                <a href="https://github.com/valros76?tab=repositories" target="_blank">> Mon github <</a><br/><br/>
+                <a href="https://www.linkedin.com/in/valerian-dufrene/" target="_blank">> Mon profil Linkedin <</a><br/><br/>
                 Diplôme : Développeur intégrateur en réalisation d'applications web.<br/>
                 Je travaille exclusivement en remote.<br/><br/>
                 Formation :<br/>
                 Parcours de formation Développeur Web Junior chez Openclassrooms.<br/><br/>
-                Vous pouvez consulter les projets que j'ai réalisé en 2018 en visitant la page "Mes portfolios".
+                Vous pouvez consulter les projets que j'ai réalisé en 2018 en visitant la page "Mes portfolios".<br/>
+                <ol>
+                    <li>Webagency</li>
+                    <li>Openstrasbourg</li>
+                    <li>Velo'V Lyon</li>
+                    <li>Blog pour un écrivain</li>
+                    <li>Site professionnel temporaire</li>
+                </ol>
             </p>
         </article>
     </section>
